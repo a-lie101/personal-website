@@ -1,4 +1,3 @@
-# a-lie
-Ali Abbas's Repository
+# Repository for the code involved with my personal website. Soon to be on the domain aliabbas.cc
 
-Ali's Website.
+
