@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
 body {
   background-color: #09042c;
-  color: #f4f4f4;
+  color: #ffffff;
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -11,6 +11,7 @@ body {
     font-weight: heavy;
     font-size: xx-large;
     align-content:center;
+    text-align: center;
     margin-top: 0;
   }
 
@@ -21,34 +22,16 @@ body {
     margin-top: 0;
   }
   h3 {
-    
+    font-weight: bold;
     font-size: large;
     align-content: center;
     margin-top: 0;
   }
 
-  .download-btn {
-    padding: 12px 24px;
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #fff;
-    background: linear-gradient(to right, #2e2c9b, #330a7f);
-    border: none;
-    border-radius: 8px;
-    margin: 8px 24px;
-    box-shadow: 0 6px 20px -8px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-    transition: all 500ms ease;
-  }
-  
-  .download-btn:hover {
-    transform: translateY(-4px);
-  }
-
   ul {
     list-style-type: none;
-    align-content: center;
+    align-content: left;
+    text-align: left;
     margin: 0;
     padding: 0;
   }
@@ -61,7 +44,7 @@ body {
     
   }
   .intro-desc {
-    align-content:normal;
+    align-content:left;
     font-weight: lighter;
     text-align: left;
   }
