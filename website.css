@@ -1,0 +1,152 @@
+/* Global styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+body {
+  background-color: #09042c;
+  color: #f4f4f4;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    font-weight: heavy;
+    font-size: xx-large;
+    align-content:center;
+    margin-top: 0;
+  }
+
+  h2 {
+    font-weight: heavy;
+    font-size: larger;
+    align-content:center;
+    margin-top: 0;
+  }
+  h3 {
+    
+    font-size: large;
+    align-content: center;
+    margin-top: 0;
+  }
+
+  .download-btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(to right, #2e2c9b, #330a7f);
+    border: none;
+    border-radius: 8px;
+    margin: 8px 24px;
+    box-shadow: 0 6px 20px -8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: all 500ms ease;
+  }
+  
+  .download-btn:hover {
+    transform: translateY(-4px);
+  }
+
+  ul {
+    list-style-type: none;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    
+    
+  }
+  .intro-desc {
+    align-content:normal;
+    font-weight: lighter;
+    text-align: left;
+  }
+  
+  .icon-bar {
+    position:fixed;
+    bottom:0;
+  }
+
+  .logo-bar {
+    position:sticky;
+    top:0;
+  }
+  
+  .hidden {
+    opacity: 0;
+    transition:all 1s;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-height: 70vh;
+    min-height: 80vh; 
+  }
+  .card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center; /* Center align the contents horizontally */
+    justify-content: center;
+    padding: 20px; /* Add padding to the section to create space around the cards */
+  }
+  .cards-title {
+    
+    min-height: 0vh;
+  }
+  
+  .small-cards {
+    flex-basis: calc(50% - 20px);
+    margin-bottom: 20px;
+    border: 5px solid #110c48;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #282253;
+    transition: transform 0.3s ease;
+  }
+  
+  .small-cards:hover {
+    transform: translateY(-10px);
+    background-color: #544989;
+  }
+
+  .show {
+    opacity: 1;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .subject {
+    flex-grow: 1;
+  }
+  
+  .grade {
+    text-align: right;
+    margin-left: 80px; 
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+ 
+ 
+  body { --scrollbar-width: 20px; --scrollbar-border-radius: 12px; --scrollbar-height: 0px; --scrollbar-border-thickness: 3px; --show-double-buttons: none; --scrollbar-corner-color: #000000; --scrollbar-track-color: #09042C; --scrollbar-thumb-color: #282253; --scrollbar-border-color: #09042C; --scrollbar-button-color: #2F2F71; } body::-webkit-scrollbar-button { background: var(--scrollbar-button-color, #3F3F46); border: var(--scrollbar-border-thickness, 3px) solid var(--scrollbar-border-color, rgb(255, 255, 255)); border-radius: var(--scrollbar-border-radius, 4px); }body::-webkit-scrollbar { width: var(--scrollbar-width, 20px); height: var(--scrollbar-height, 20px); }body::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb-color, #3B82F6); border: var(--scrollbar-border-thickness, 3px) solid var(--scrollbar-border-color, rgb(255, 255, 255)); border-radius: var(--scrollbar-border-radius, 4px); }body::-webkit-scrollbar-track { background: var(--scrollbar-track-color, #A1A1AA); }body::-webkit-scrollbar-corner { background: var(--scrollbar-corner-color, #FFFFFF); border: var(--scrollbar-border-thickness, 3px) solid var(--scrollbar-border-color, rgb(255, 255, 255)); border-radius: var(--scrollbar-border-radius, 4px); }body::-webkit-scrollbar-button:vertical:start:increment, #preview::-webkit-scrollbar-button:vertical:end:decrement, #preview::-webkit-scrollbar-button:horizontal:start:increment, #preview::-webkit-scrollbar-button:horizontal:end:decrement { display: var(--show-double-buttons, none); }
+
+
+
