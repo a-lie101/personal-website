@@ -8,44 +8,12 @@
   
 
 body {
-  background: linear-gradient(to bottom, #01172c 50%, #333 50%);
+  background: linear-gradient(to bottom, #15043d 50%, #333 50%);
   background-size: 100% 200%;
   position: relative;
   min-height: 300vh;
   overflow-x: hidden;
 }
-
-
-#road {
-  position: fixed;
-  bottom: 0;
-  width: 100vw;
-  height: 100px;
-  background: repeating-linear-gradient(
-    to right,
-    #444,
-    #444 40px,
-    #666 40px,
-    #666 80px
-  );
-  z-index: 10;
-}
-
-#car {
-  position: fixed;        /* So top/left are viewport‑relative */
-  top: 80vh;
-  left: 40vw;
-  width: 100px;
-  z-index: 11;
-  transition: top 0.1s linear, left 0.1s linear;
-}
-
-
-#car img {
-  width: 100%;
-}
-
-
 
 
 
@@ -180,13 +148,13 @@ section {
   border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  background-color: #042c44;
+  background-color: #361d46;
   transition: transform 0.3s ease;
 }
 
 .small-cards:hover {
   transform: translateY(-10px);
-  background-color: #044e71;
+  background-color: #581c89;
 }
 
 .show {

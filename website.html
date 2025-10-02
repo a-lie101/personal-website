@@ -10,9 +10,22 @@
   <link rel="icon" type="image/x-icon" href="/images/favicon.png?">
   <script defer src="website.js"></script>
   <script src="https://kit.fontawesome.com/4f29ce600e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="terminal.css">
+  <script defer src="terminal.js"></script>
 </head>
 
 <body>
+  <div id="terminal-landing" role="dialog" aria-label="Terminal">
+    <section id="tl-screen" aria-live="polite" aria-atomic="false"></section>
+    <form id="tl-prompt" autocomplete="off" spellcheck="false" aria-label="Command input">
+      <label for="tl-input" class="prompt-label">
+        <span class="user">guest</span>@<span class="host">ali-site</span>:<span class="path">~</span>$
+      </label>
+      <input id="tl-input" name="cmd" type="text" inputmode="text" autofocus />
+      <span id="tl-caret" aria-hidden="true"></span>
+    </form>
+  </div>
+  <button id="tl-return" type="button" title="Open terminal">terminal</button>
   <main>
     <div></div>
     <div class="content">
@@ -28,9 +41,9 @@
         </h1>
         <div class="intro-desc">
           <ul>
-            <li>I'm a current 2nd year at University of British Columbia in Vancouver.
+            <li>I'm a 3rd year at the University of British Columbia in Vancouver
             </li>
-            <li>Pursuing a Combined Honours in Mathematics and Statistics, with a minor in Data Science</li>
+            <li>Pursuing a Computer Science Major, with a minor in Data Science</li>
             <li>Aspiring Software Engineer, and current intern at Qenta FinTech</li>
           </ul>
         </div>
@@ -149,19 +162,15 @@
         <ul>
           <li>
             <span class="subject">Maths</span>
-            <span class="grade">Grade A*</span>
           </li>
           <li>
             <span class="subject">Further Maths</span>
-            <span class="grade">Grade B</span>
           </li>
           <li>
             <span class="subject">Computer Science</span>
-            <span class="grade">Grade A</span>
           </li>
           <li>
             <span class="subject">Physics</span>
-            <span class="grade">Grade A</span>
           </li>
         </ul>
 
@@ -171,7 +180,7 @@
         <ul>
           <li>
             <span class="subject">Degree:</span>
-            <span class="grade">BSc, Mathematics + Minor in Data Science</span>
+            <span class="grade">BSc, Computer Science + Minor in Data Science</span>
           </li>
           <li>
             <span class="subject">Award:</span>
